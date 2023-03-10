@@ -1,0 +1,104 @@
+.navigacija{
+    width:100%!important;
+    padding-left: 60px!important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 60px!important;
+    background-color: darkblue;
+    color:darkcyan;
+}
+
+.disp-flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.linkovi{
+    width:100%;
+    text-decoration: none;
+
+}
+.kosara{
+    font-size: 18px;
+    padding: 20px;
+}
+.gumb{
+    border: white;
+}
+
+.kosara-link{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.ulDashboard{
+    list-style: circle!important;
+}
+.liDashboard{
+    display: block;
+    margin-top: 10px!important;
+}
+
+.linkDashboard{
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    padding:10px;
+}
+
+@media screen and (max-width: 663px){
+
+    .linkovi{
+        font-size:16px!important;
+        padding: 0!important;
+
+    }
+    .kosara{
+        padding: 5px!important;
+    }
+}
+
+@media screen and (max-width: 441px){
+
+    .navigacija{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .linkovi{
+        font-size:14px!important;
+        padding: 10px!important;
+
+    }
+    .kosara{
+        font-size: 14px;
+        padding: 20px!important;
+    }
+
+    .kosara-link{
+        display: flex!important;
+        align-items: center!important;
+        justify-content: center!important;
+        width: 100%!important;
+    }
+}
+
+@media screen and (max-width: 389px){
+
+    .navigacija{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .linkovi{
+        font-size:12px!important;
+        padding: 5px!important;
+
+    }
+
+}
